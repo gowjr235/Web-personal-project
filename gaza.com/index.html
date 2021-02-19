@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaza.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="container">
+            <div class="row">
+                <div class="null_box"></div>
+                <div class="header">
+                    <h1>
+                        <a href="index.html"><img src="assets/logo.jpg" alt=""> </a>
+                    </h1>
+                    <nav class="nav">
+                        <ul>
+                            <header id="header">
+                                <span id="name"></span>
+                            <li><a href="html/findpartner.html">파트너 찾기</a></li>
+                            <li><a href="#">상담 받기</a></li>
+                            <li id="li1"><a href="#">파트너 등록하기</a></li>
+                            <li id="li2"><a href="#" id="button">로그인</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="popup">
+        <div class="box">
+            <div class="popup_container">
+                <div class="popup">
+                    <div class="popup-content">
+                        <div class="close" id="close"></div>
+                        <form class="form" name="login">
+                            <h2>여행 GAZA</h2>
+                            <div class="inputBox">
+                                <input type="text" placeholder="Username" name="userid"/>
+                            </div>
+                            <div class="inputBox">
+                                <input type="password" placeholder="Password" name="userpassword"/>
+                            </div>
+                            <div class="inputBox">
+                                <input type="submit" value="로그인" onclick="check(this.form)">
+                            </div>
+                            <p class="forget">비밀번호를 잊으셨나요? <a href="#">비밀번호 찾기</a></p>
+                            <p class="forget">아직 회원이 아니세요? <a href="#">회원가입</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="banner">
+                    <div class="video_wrap">
+                         <video class="video_play" autoplay loop muted plays-inline>
+                                <source src="assets/video.mp4" type="video/mp4">
+                        </video>
+                        <div class="text"> 
+                            <p>세상 어디에도 없는 <br> 오직 나를 위한 여행</p>
+                            <a href="#" class="more1">여행파트너 알아보기</a>
+                            <p class="more2"></p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="type">
+        <div class="container">
+            <div class="row">
+                <div class="type">
+                    <h2>어떤 여행을 계획하고 있나요?</h2>
+                    <div class="type_all">
+                        <div class="type_wrap">
+                            <div class="card">
+                                <div class="card_1">
+                                    <div class="content">
+                                        <h2>친구들과</h2>
+                                        <p>우정 여행</p>
+                                        <a href="#" class="btn">더 알아보기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card_2">
+                                    <div class="content">
+                                        <h2>부모님과</h2>
+                                        <p>효도 여행</p>
+                                        <a href="#" class="btn">더 알아보기</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card">
+                                <div class="card_3">
+                                    <div class="content">
+                                        <h2>애인이랑</h2>
+                                        <p>사랑 여행</p>
+                                        <a href="#" class="btn">더 알아보기</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card">
+                                <div class="card_4">
+                                    <div class="content">
+                                        <h2>혼자서</h2>
+                                        <p>배낭 여행</p>
+                                        <a href="#" class="btn">더 알아보기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="advertise">
+        <div class="container">
+            <div class="row">
+                <div class="desc_wrap">
+                    <div class="desc_cont">
+                            <div class="desc">
+                                <div class="ad">
+                                    <img src="" alt="">
+                                    <em>맞춤형 여행</em>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <div class="ad">
+                                    <img src="" alt="">
+                                    <em>전문 상담원</em>
+                                </div>
+                            </div>
+                            <div class="desc desc3">
+                                <div class="ad">
+                                    <img src="" alt="">
+                                    <em>비대면 상담</em>
+                                </div>
+                            </div>
+                            
+                    </div>
+                    <div class="swiper-container best">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide ss1">
+                                <div class="container">
+                                        <h2>이번주의 여행지 <em>부산</em></h2>
+                                        <p>설명</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ss2">
+                                <div class="container">
+                                        <h2>이번달의 여행지 <em>서울</em></h2>
+                                        <p>설명</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ss3">
+                                <div class="container">
+                                        <h2>이번달의 여행지 <em>강원도</em></h2>
+                                        <p>설명</p>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ad1">
+        <div class="container">
+            <div class="row">
+                <div class="ad1">
+                    <div class="desc_wrap">
+                        <div class="desc_img">사진</div>
+                        <div class="desc_text"><p> 전문 상담가가 1대1 면담을 통해 여행자에게 알맞은 투어를 추천해드립니다!</p> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ad2">
+        <div class="container">
+            <div class="row">
+                <div class="ad2">
+                    <div class="desc_wrap">
+                        <div class="desc_text"><p> 여행 파트너이신가요?</p>
+                        <a href="#">여행 파트너 등록하기</a> </div>
+                        <div class="desc_img"> 사진 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="review">
+        <div class="container">
+            <div class="row">
+                <div class="review">
+                    <div class="swiper">
+                        <div class="swiper-container1 review">
+                            <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam veniam eligendi deleniti nobis a consequatur, nostrum odit ea, perspiciatis neque doloremque. Omnis minus eaque numquam assumenda, in culpa. Ab.</p></div>
+                                    <div class="swiper-slide"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam molestias sit quaerat eveniet et dolore. Minus vero eum, sunt eligendi id et eaque saepe placeat cum soluta. Autem, voluptates id.</p></div>
+                                    <div class="swiper-slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum, cupiditate iusto alias a, inventore error voluptatem eligendi expedita sapiente, ipsam necessitatibus non aspernatur deserunt sit libero mollitia cumque? Eligendi.</p></div>
+                                    <div class="swiper-slide"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui repudiandae ducimus voluptatum quam quia alias veritatis voluptates! Dolorem illo repellat mollitia eaque, ducimus debitis vero temporibus, obcaecati harum dolor dignissimos!</p></div>
+                                    <div class="swiper-slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aspernatur, asperiores commodi rem harum illo nam deleniti a aut, consequatur ratione, magni veniam facere nihil exercitationem praesentium modi! Consequuntur, aspernatur!</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="prev">
+        <div class="container">
+            <div class="row">
+                <div class="prev"> 
+                
+                    <div class="swiper">    
+                        <div class="swiper-container2 review">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div> 
+                                <div class="swiper-slide"></div> 
+                                <div class="swiper-slide"></div> 
+                                <div class="swiper-slide"></div> 
+                                <div class="swiper-slide"></div> 
+                                <div class="swiper-slide"></div> 
+                                <div class="swiper-slide"></div> 
+                                <div class="swiper-slide"></div> 
+                                <div class="swiper-slide"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="find">
+        <div class="container">
+            <div class="row">
+                <div class="find">
+                    <h2></h2>
+                    <a href=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sns">
+        <div class="container">
+                <div class="sns">
+                    <h2>여행 정보</h2>
+                        <div class="sns_wrap">
+                            <div class="insta">
+                                <a href="#" class="icon"><i class="fab fa-instagram"></i> </a>
+                                <div class="desc">인스타 팔로우 하세요</div>
+                            </div>
+                            <div class="youtube">
+                                <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+                                <div class="desc">유튜브 구경하세요</div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div id="footer_info">
+            <div class="container">
+                <div class="row">
+                    <div class="footer_info">
+                        <ul>
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">파트너 문의</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                        <address>
+                            <p>서울특별시 광진구 광나루로 20길 38<br><span class="bar2">대표자명 임재환</span> 개인정보보호 책임자 임재환<br><span class="bar2">사업자등록번호 211-86-59478</span> 통신판매업신고번호 제 833호</p>
+                            <p>Copyright 2021 by GAZA Inc. All right reserved</p>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/scroll-out.js"></script>
+    <script type="text/javascript" src="js/scroll-out.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
+    <script type="text/javascript">
+        ScrollOut({
+            targets: '.desc_text, .desc_img'
+        })
+    </script>
+
+</body>
+</html>
